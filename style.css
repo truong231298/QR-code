@@ -1,0 +1,40 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.container{
+    max-width: 360px;
+    margin: auto;
+}
+.qr-code{
+    background-color: hsl(0, 0%, 100%);
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0 1rem;
+}
+
+.qr-code img{
+    width: 100%;
+    border-radius: 15px;
+}
+.text{
+    padding: 22px 10px;
+    
+}
+.text h2{
+    margin-bottom: 15px;
+    color: hsl(218, 44%, 22%);
+}
+.text .attribution{
+    color: hsl(212, 16%, 45%);
+}
